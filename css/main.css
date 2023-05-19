@@ -1,0 +1,267 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #0d131c;
+  color: #fff;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+header {
+  background-color: #272c4b;
+  padding: 1rem;
+  align-items: center;
+  gap: 1em;
+}
+.logo {
+  grid-column: 2 / span 10;
+}
+.last-header {
+  display: flex;
+  gap: 0.5rem;
+}
+.last-header > button {
+  padding: 0.5rem;
+  border-radius: 10px;
+  width: 5rem;
+  color: #fff;
+  font-weight: 800;
+  border: none;
+}
+#Blue {
+  background-color: #2283f6;
+}
+#Pink {
+  background-color: #dd234b;
+}
+.main {
+  padding: 3rem;
+}
+.yellow {
+  color: #ffc327;
+  font-weight: 600;
+}
+.all {
+  padding: 2rem 0rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  grid-column: 3/11;
+}
+.buttons {
+  display: flex;
+  gap: 2em;
+}
+.buttons > button {
+  padding: 1rem 1.8rem;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.Pink {
+  background-color: #dd234b;
+  color: #fff;
+}
+.grey {
+  background-color: #181c34;
+  color: #98abd1;
+}
+#box {
+  border-radius: 10px;
+}
+.games {
+  display: grid;
+  gap: 1em;
+}
+.cash-back {
+  padding: 1em;
+  background-image: linear-gradient(
+    93.63deg,
+    #4353ff 1.49%,
+    #245cff 30.16%,
+    #67dbff 98.46%
+  );
+  grid-column: 1 / span 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.facebook {
+  padding: 1em;
+  background-image: linear-gradient(90deg, #3367ff 0%, #8647ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 5 / span 5;
+}
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 15px;
+}
+.Vip {
+  background-image: linear-gradient(180deg, #ffcd4d 0%, #ff8869 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem;
+}
+.Btc {
+  grid-column: span 6;
+  background-size: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  padding: 1rem;
+}
+.Gift {
+  background-image: linear-gradient(180deg, #0bc2c2 0%, #0364ff 100%);
+  grid-column: span 1;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+.middle {
+  background-image: linear-gradient(180deg, rgba(5, 7, 29, 0) 0%, #363b6f 100%);
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.3rem;
+}
+#slots {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#games {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+}
+
+#keno {
+  border-radius: 10px;
+  background-size: 100%;
+  grid-column: span 2;
+  height: 9.5rem;
+  background-repeat: no-repeat;
+  background-color: #0d2e9b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  /* background-image: linear-gradient(180deg, rgba(16, 29, 175, 0) 0%, #363b6f 100%); */
+}
+
+.live-casino {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+}
+.casino {
+  grid-column: span 2;
+  height: 9rem;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 800;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: grid;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+.popular-slots {
+  display: grid;
+  grid-template-columns: repeat(12, 2fr);
+  gap: 1rem;
+}
+.p-slots {
+  grid-column: span 2;
+  height: 10rem;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 800;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+.play-store {
+  display: grid;
+  grid-template-columns: repeat(12, 2fr);
+  gap: 1rem;
+}
+.store {
+  grid-column: span 2;
+  height: 10rem;
+  background-color: #9c24ff;
+  border-radius: 10px;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+#casino-10 {
+  background-color: #dd234b;
+}
+
+footer {
+  background-color: #272c4b;
+  padding: 2rem 4rem;
+  gap: 1rem;
+  color: #abbdd9;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  display: flex;
+  gap: 4rem;
+}
+.feat {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.feat > ul {
+  list-style-type: none;
+  display: flex;
+
+  flex-direction: column;
+  gap: 0.6em;
+}
+.feat > ul > li:hover {
+  cursor: pointer;
+  display: block;
+}
+.socials {
+  display: flex;
+  gap: 1em;
+}
+.payment-method {
+  display: flex;
+  gap: 1em;
+}
+.copyright {
+  display: flex;
+  gap: 1em;
+}
